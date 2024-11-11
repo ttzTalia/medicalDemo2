@@ -12,7 +12,7 @@ const routes = [
 ];
 
 const router = new Router({
-  mode: "history", // hash/history
+  mode: "hash", // hash/history
   //插件路由对象
   routes,
 });
